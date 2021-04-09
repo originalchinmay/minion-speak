@@ -19,11 +19,13 @@ function getTranslationURL(text) {
 
 function clickEventHandler() {
   // outputDiv.innerText = "jsjdfsd" + textInput.value;
-  //--------------taking input
+
+  //--------------taking input---------------
   var inputText = textInput.value;
 
-  fetch(getTranslationURL(inputText)).then((response) =>
-    response.json().then((json) => console.log(json))
+  fetch(getTranslationURL(inputText))
+  .then((response) => response.json()
+  .then((json) => console.log(json))
   );
 }
 
