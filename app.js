@@ -5,12 +5,13 @@
 
 var btnTranslate = document.querySelector("#btn-translate");
 var textInput = document.querySelector("#txt-input");
+var outputDiv = document.querySelector("#output");
 
 console.log(textInput);
+console.log(outputDiv);
 
 function clickEventHandler() {
-  console.log("clicked!");
-  console.log("input", textInput.value);
+  outputDiv.innerText = "jsjdfsd" + textInput.value;
 }
 
 btnTranslate.addEventListener("click", clickEventHandler);
