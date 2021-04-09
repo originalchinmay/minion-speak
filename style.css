@@ -1,4 +1,9 @@
-.textarea {
+.header {
+  margin: 1rem;
+}
+
+.textarea,
+#output {
   width: 90%;
   height: 10vh;
   display: block;
@@ -6,4 +11,14 @@
   padding: 1rem;
   border: 2px solid pink;
   border-radius: 0.7rem;
+}
+
+#btn-translate {
+  margin: 1rem;
+}
+
+.output {
+  margin: 1rem;
+  font-weight: bold;
+  font-size: large;
 }
