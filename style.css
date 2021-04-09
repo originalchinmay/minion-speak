@@ -1,3 +1,15 @@
+:root{
+  --yellow-color: #FACC5D;
+  --blue-color: #5293DC;
+  --grey-color: #E7E7E7;
+}
+
+body {
+  background-image: url("https://wallpaperaccess.com/full/305936.jpg");
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
 .header {
   margin: 1rem;
 }
@@ -9,13 +21,15 @@
   display: block;
   margin: 1rem;
   padding: 1rem;
-  border: 4px solid pink;
+  border: 4px solid var(--yellow-color);
   border-radius: 0.7rem;
+  background-color: var(--grey-color);
+  
 }
 
 #btn-translate {
   margin: 1rem;
-  background-color: pink;
+  background-color: var(--blue-color);
   border-radius: 0.3rem;
   padding: 0.5rem 2rem;
   font-weight: bold;
