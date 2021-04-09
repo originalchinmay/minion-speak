@@ -1,0 +1,9 @@
+.textarea {
+  width: 90%;
+  height: 10vh;
+  display: block;
+  margin: 1rem;
+  padding: 1rem;
+  border: 2px solid pink;
+  border-radius: 0.7rem;
+}
